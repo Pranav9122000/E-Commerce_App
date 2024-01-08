@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58C454032B4B22C100AA0440 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C454022B4B22C100AA0440 /* PlayerModel.swift */; };
+		58C454052B4B22FB00AA0440 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C454042B4B22FB00AA0440 /* CodableBundleExtension.swift */; };
+		58C454072B4B247C00AA0440 /* FeatureItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C454062B4B247C00AA0440 /* FeatureItemView.swift */; };
+		58C454092B4B252100AA0440 /* FeatureTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C454082B4B252100AA0440 /* FeatureTabView.swift */; };
 		58D96FBC2B484069002BA5D5 /* E_CommerceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D96FBB2B484069002BA5D5 /* E_CommerceApp.swift */; };
 		58D96FBE2B484069002BA5D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D96FBD2B484069002BA5D5 /* ContentView.swift */; };
 		58D96FC02B48406B002BA5D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58D96FBF2B48406B002BA5D5 /* Assets.xcassets */; };
@@ -22,6 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58C454022B4B22C100AA0440 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		58C454042B4B22FB00AA0440 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		58C454062B4B247C00AA0440 /* FeatureItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureItemView.swift; sourceTree = "<group>"; };
+		58C454082B4B252100AA0440 /* FeatureTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureTabView.swift; sourceTree = "<group>"; };
 		58D96FB82B484069002BA5D5 /* E-Commerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Commerce.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58D96FBB2B484069002BA5D5 /* E_CommerceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_CommerceApp.swift; sourceTree = "<group>"; };
 		58D96FBD2B484069002BA5D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -123,6 +131,8 @@
 			children = (
 				58D96FDC2B4854F7002BA5D5 /* FooterView.swift */,
 				58D96FE02B485841002BA5D5 /* LogoView.swift */,
+				58C454062B4B247C00AA0440 /* FeatureItemView.swift */,
+				58C454082B4B252100AA0440 /* FeatureTabView.swift */,
 				58D96FDE2B485763002BA5D5 /* NavigationBarView.swift */,
 			);
 			path = Home;
@@ -138,6 +148,7 @@
 		58D96FD72B485356002BA5D5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				58C454022B4B22C100AA0440 /* PlayerModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -145,6 +156,7 @@
 		58D96FD82B48539A002BA5D5 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				58C454042B4B22FB00AA0440 /* CodableBundleExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -231,12 +243,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58C454072B4B247C00AA0440 /* FeatureItemView.swift in Sources */,
+				58C454092B4B252100AA0440 /* FeatureTabView.swift in Sources */,
+				58C454052B4B22FB00AA0440 /* CodableBundleExtension.swift in Sources */,
 				58D96FBE2B484069002BA5D5 /* ContentView.swift in Sources */,
 				58D96FE12B485841002BA5D5 /* LogoView.swift in Sources */,
 				58D96FDD2B4854F7002BA5D5 /* FooterView.swift in Sources */,
 				58D96FBC2B484069002BA5D5 /* E_CommerceApp.swift in Sources */,
 				58D96FDB2B4853C2002BA5D5 /* Constants.swift in Sources */,
 				58D96FDF2B485763002BA5D5 /* NavigationBarView.swift in Sources */,
+				58C454032B4B22C100AA0440 /* PlayerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
