@@ -16,6 +16,9 @@ let colorGrey: Color = Color(UIColor.systemGray4)
 let players: [PlayerModel] = Bundle.main.decode("player.json")
 let category: [CategoryModel] = Bundle.main.decode("category.json")
 let products: [ProductModel] = Bundle.main.decode("product.json")
+let brands: [BrandModel] = Bundle.main.decode("brand.json")
+
+let sampleProduct: ProductModel = products[0]
 
 // LAYOUT
 let columnSpacing: CGFloat = 10
